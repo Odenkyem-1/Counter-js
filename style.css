@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+}
+
+header{
+    background-color: hsl(145, 100%, 54%);
+    color: hsl(0, 0%, 100%);
+    font-family: monospace;
+    font-size: 2.3em;
+    text-align: center;
+}
+
+main{
+    display: block;
+    text-align: center;
+}
+
+.value{
+    font-size: 10em;
+    font-family: monospace;
+}
+
+.btnContainer{
+    margin: 50px;
+    text-align: center;
+}
+
+.btn{
+    margin: 10px;
+    padding: 20px 30px;
+    background-color: hsl(143, 78%, 43%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: hsl(143, 77%, 53%);
+    box-shadow: 5px 5px 20px rgb(68, 67, 67);
+    transition: 0.23s ease-in;
+}
